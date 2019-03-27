@@ -1,0 +1,24 @@
+{
+  "name": "myportforlio",
+  "version": "1.0.0",
+  "description": "My personal porfotlio project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[Ct\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Df\u001b[o",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanBawi/myportforlio.git"
+  },
+  "author": "Jack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanBawi/myportforlio/issues"
+  },
+  "homepage": "https://github.com/VanBawi/myportforlio#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
