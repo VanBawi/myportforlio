@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>URL Shortner</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+      <link rel="stylesheet" href="thumbnail-gallery.css">
+      <link rel="stylesheet" type="text/css" href="/main.css">
+  </head>
+
+
+<body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          <div class="navbar-header">
+          </div>
+              <ul class="nav navbar-nav">
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+              <li><a href="#">URL Shortner by Jacko</a></li>
+            </ul>
+              <ul class="nav navbar-nav navbar-right">
+              <li><a href="/registrations/signup"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+              <li><a href="/sessions/login"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+            </ul>
+      </div>
+    </nav>
+
+    <h2> Welcome form URL Shortner</h2>
+
+        <%# #form section in this file %>
+      <div class="buttons">
+        <form method="POST" action="Get_Short" >
+          <input class="btn btn-shorten" type="text" name="original_url" placeholder="Enter URL" >
+          <button class="btn btn-shorten" name="short_url" type="submit">SHORTEN </button>
+        </form>
+      </div>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+development:
+  adapter: postgresql
+  database: urlshortener
+  pool: 5
+  timeout: 5000
+
